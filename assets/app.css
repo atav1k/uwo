@@ -26,7 +26,7 @@ h1 {
 
 @media screen and (--breakpoint) {
   :root {
-      --headings-font-size-h1: var(--space-6);
+      --headings-font-size-h1: var(--space-5);
       --grid-template-columns: repeat(auto-fill, minmax(52rem, 1fr));
   }
   .grid {
