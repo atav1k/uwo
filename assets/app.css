@@ -17,7 +17,7 @@ body {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1908563/uwo-bg.svg) center center fixed repeat;
   background-size: cover;
   border: 2rem solid var(--teal);
-  min-height: calc(100vh - var(--space-4));
+  /* min-height: calc(100vh - var(--space-4)); */
 }
 
 h1 {
