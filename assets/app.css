@@ -1,0 +1,25 @@
+:root {
+  --column-gutter: var(--space-3);
+  --headings-font-family: 'Coustard', serif;
+  --headings-font-size-h1: var(--space-8);
+  --headings-line-height: 1.5;
+}
+
+.nav a {
+  color: white;
+}
+
+body {
+  background-color: var(--whitesmoke);
+}
+
+.hero {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1908563/uwo-bg.svg) center center fixed repeat;
+  background-size: cover;
+  border: 2rem solid var(--teal);
+  min-height: calc(100vh - var(--space-4));
+}
+
+h1 {
+  line-height: 1;
+}
