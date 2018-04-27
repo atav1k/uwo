@@ -23,3 +23,15 @@ body {
 h1 {
   line-height: 1;
 }
+
+@media screen and (--breakpoint) {
+  :root {
+      --headings-font-size-h1: var(--space-6);
+      --grid-template-columns: repeat(auto-fill, minmax(52rem, 1fr));
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  }
+}
+
+@custom-media --breakpoint (max-width: 52rem);

@@ -23,10 +23,10 @@
             a(href="https://goo.gl/maps/8m4VgA6pMvj") VSCO
             span ,
             a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588")  5-8p
-          .grid-col-span-2.hide
+          .grid-col-span-2
             .px-2.h4.bold For people partipating in tech aiming to reconcile their values with the places they work and platforms they use. UWO bring concerned workers together to understand how the industry is complicit in forms of oppression and how to confront it.
               p —Join us @VSCO the day after   May Day, 2018.
-          div.self-start.hide
+          div.self-start
             a(href="https://www.eventbrite.com/e/users-workers-owners-bringing-democracy-to-work-tickets-45365886588").button.bold.teal.h4 Get a Ticket, $10
             p.pt-1 Early bird tickets $10, regular $15 after April 27, nobody turned away for lack of funds.
     section.cols.mb-6.mt-6
