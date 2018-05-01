@@ -6,16 +6,17 @@ module.exports = {
 
   /* Headers of the page */
   head: {
-    title: 'uwo',
+    title: 'User, Worker, Owner: May 2',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'User, Worker, Owner' }
+      { hid: 'description', name: 'description', content: 'User, Worker, Owner' },
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fortune-css/dist/fortune.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Coustard:400,900' }      
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Coustard:400,900' }
     ]
   },
   /* Customize the progress bar color */
