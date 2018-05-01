@@ -5,8 +5,8 @@
         .nav-left
           a(href="/")
             span.red.bold User, Worker, Owner
-            span.teal.bold —May 2 @VSCO, Oakland, 5-8p
-        .nav-right
+            span.teal.bold.hide —May 2 @VSCO, Oakland, 5-8p
+        .nav-right.hide
           a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588").button.bold.h6.white Get Tickets
     section
     .hero.mt-4.bg-orange.bkg-blend-screen
