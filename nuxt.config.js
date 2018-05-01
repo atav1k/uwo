@@ -11,7 +11,15 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'User, Worker, Owner' },
-
+      { property: 'og:title', content: 'User, Worker, Owner—Bringing Democracy to Work' },
+      { property: 'og:url', content: 'http://uwo.fyi' },
+      { property: 'og:description', content: 'For people participating in tech to bring their values to their workplaces and platforms.'},
+      { property: 'og:img', content: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1908563/uwo-twitter.png' },
+      { name:'twitter:card' content: 'summary' },
+      { name:'twitter:image' content: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1908563/uwo-twitter.png' },
+      { name:'twitter:site' content: '@uwofyi' },
+      { name:'twitter:title' content: 'User, Worker, Owner—Bringing Democracy to Work' },
+      { name:'twitter:description' content: 'For people participating in tech to bring their values to their workplaces and platforms.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
