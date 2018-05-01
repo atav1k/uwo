@@ -26,12 +26,24 @@ h1 {
 
 @media screen and (--breakpoint) {
   :root {
-      --headings-font-size-h1: var(--space-5);
-      --grid-template-columns: repeat(auto-fill, minmax(52rem, 1fr));
+    --column-gutter: var(--space-1);
+    --headings-font-size-h1: var(--space-3);
+    --headings-font-size-h2: var(--space-2);
+    --headings-font-size-h3: var(--space-2);
+    --grid-template-columns: repeat(auto-fill, minmax(52rem, 1fr));
+  }
+  .schedule {
+    margin: 0;
+  }
+  .mt-5, .mb-5 { margin: 0}
+  .grid-col-span-2 {
+    grid-column: span 1;
+    text-align: left;
   }
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
+  .hero {}
 }
 
 @custom-media --breakpoint (max-width: 52rem);

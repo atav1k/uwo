@@ -9,8 +9,8 @@
         .nav-right.hide
           a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588").button.bold.h6.white Get Tickets
     section
-    .hero.mt-4.bg-orange.bkg-blend-screen
-      .cols.mb-3
+    .hero.mt-4
+      .cols.mb-5
         .grid.grid-cols-3.mt-5.w-100.grid-space-3
           .grid-col-span-2.center
             h1.bold.mb-0.red User, Worker, Owner
@@ -25,8 +25,8 @@
             h2.navy.mb-0 Bringing Democracy to Work
           a(href="https://www.eventbrite.com/e/users-workers-owners-bringing-democracy-to-work-tickets-45365886588").button.bold.teal.h4.py-1 Get Tickets
           .grid-col-span-2
-            .px-2.h4.bold For people participating in tech to bring their values to their workplaces and platforms. We'll define the problems we face, connect with peers, and explore strategies and tools to build cooperative alternatives.
-    section.cols.mb-6.mt-6
+            .h4.bold For people participating in tech to bring their values to their workplaces and platforms. We'll define the problems we face, connect with peers, and explore strategies and tools to build cooperative alternatives.
+    section.cols.mb-6.mt-6.schedule
       .col-8.offset-2.bg-white
         .p-3
           h2.bold.underline Speakers
