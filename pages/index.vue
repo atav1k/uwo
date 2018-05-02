@@ -55,23 +55,26 @@
           .col-6
             h2.bb-2.py-2.orange.border-silver.bold  Simon
               .h2.regular Mont
-              .h5.dark Nonprofit Democracy Network
+              .h5.dark
+                a(href="http://harmonize.work") Harmonize
         .cols.p-3
           .col
             h2.bold.underline Schedule
             ul
               li.bold
+                h4 Doors open. 4:30pm
+              li.bold
                 h4 🎭 Welcome & opening remarks. 5:00pm
               li.bold
-                h4 🥁 Frameworks for tomorrow’s tech. 5:20pm
+                h4 🥁 Talks on cooperative alternatives by digital labor researcher Niloufar Salehi, co-op scholar Nathan Schneider, and employee ownership specialist Camille Kerr. 5:15pm
               li.bold
-                h4 👋 How does democratic governance work? 6pm
+                h4 👋 Pitches for simultaneous workshops and group discussions. 6:15pm
               li.bold
-                h4 🍦 	Ice cream social. 6:45pm 🍨
+                h4 👩‍👩‍👧‍👦 Featured workshop, on how democratic governance works, by Harmonize founder Simon Mont and Reflex Design Collective co-founder Pierce Gordon. 6:30pm
               li.bold
-                h4 👩‍👩‍👧‍👦 Community project discussions. 7pm
+                h4 👩‍👩‍👧‍👦 Reflections from workshops, peer connections. 7:30pm
               li.bold
-                h4 💯 Closing remarks. 7:50pm
+                h4 🍦 Ice cream and closing remarks. 7:50pm
         .cols.p-3
           .col
             a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588").h3.bold.px-2.button.mb-3 Get Tickets
