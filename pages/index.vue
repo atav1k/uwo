@@ -16,16 +16,21 @@
             h1.bold.mb-0.red User, Worker, Owner
           .navy.self-end
             img.w-50.mb-1(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1908563/uwo-logo.svg")
-            h3.bold May 2nd,
+            h3.bold.line-through May 2nd,
               a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588")  5-8p
             h3.navy.bold.self-center
               a(href="https://goo.gl/maps/8m4VgA6pMvj") VSCO
               span , Oakland
           .grid-col-span-2.bold.center
             h2.navy.mb-0 Bringing Democracy to Work
-          a(href="https://www.eventbrite.com/e/users-workers-owners-bringing-democracy-to-work-tickets-45365886588").button.bold.teal.h4.py-1 Get Tickets
+          form.grid-row-span-2.w-100(name="contact" method="POST" netlify)
+            label.bold Name
+            input(type="text" name="name")
+            label.mt-1.bold Email
+            input(type="email" name="email")
+            button.mt-2(type="submit") Newsletter Signup
           .grid-col-span-2
-            .h4.bold For people participating in tech to bring their values to their workplaces and platforms. We'll define the problems we face, connect with peers, and explore strategies and tools to build cooperative alternatives.
+            .h4.bold For people participating in tech to bring their values to their workplaces and platforms. Defining the problems we face, connecting with peers, and exploring strategies and tools to build cooperative alternatives. Enter your email to learn about our next event.
     section.cols.mb-6.mt-6.schedule
       .col-8.offset-2.bg-white
         .p-3
