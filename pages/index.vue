@@ -23,7 +23,7 @@
               span , Oakland
           .grid-col-span-2.bold.center
             h2.navy.mb-0 Bringing Democracy to Work
-          form.grid-row-span-2.w-100(name="contact" method="POST" netlify)
+          form.grid-row-span-2.w-100(name="contact" method="POST" netlify action="#")
             label.bold Name
             input(type="text" name="name")
             label.mt-1.bold Email
