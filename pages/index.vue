@@ -6,8 +6,6 @@
           a(href="/")
             span.red.bold User, Worker, Owner
             span.teal.bold.hide —May 2 @VSCO, Oakland, 5-8p
-        .nav-right.hide
-          a(href="https://www.eventbrite.com/e/user-worker-owner-bringing-democracy-to-work-tickets-45365886588").button.bold.h6.white Get Tickets
     section
     .hero.mt-4
       .cols.mb-5
@@ -23,7 +21,7 @@
               span , Oakland
           .grid-col-span-2.bold.center
             h2.navy.mb-0 Bringing Democracy to Work
-          form.grid-row-span-2.w-100(name="contact" method="POST" netlify action="#")
+          form.grid-row-span-2.w-100(name="contact" method="POST" netlify action="/thanks")
             label.bold Name
             input(type="text" name="name")
             label.mt-1.bold Email
