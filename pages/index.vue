@@ -21,11 +21,11 @@
               span , Oakland
           .grid-col-span-2.bold.center
             h2.navy.mb-0 Bringing Democracy to Work
-          form.grid-row-span-2.w-100(name="contact" method="POST" netlify action="/thanks")
-            label.bold.w-100 Name
-              input(type="text" name="name")
-            label.mt-1.mr-0.w-100.bold Email
-              input(type="email" name="email")
+          form.grid-row-span-2.w-100(data-netlify="true" name="contact-uwo" method="POST" action="/thanks")
+            label.bold Name
+            input(type="text" name="name")
+            label.mt-1.bold Email
+            input(type="email" name="email")
             button.mt-2(type="submit") Newsletter Signup
           .grid-col-span-2
             .h4.bold For people participating in tech to bring their values to their workplaces and platforms. Defining the problems we face, connecting with peers, and exploring strategies and tools to build cooperative alternatives. Enter your email to learn about our next event.
