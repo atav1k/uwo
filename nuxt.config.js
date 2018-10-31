@@ -23,7 +23,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fortune-css/dist/fortune.min.css' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fortune-css@0.0.14/dist/fortune.min.css' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Coustard:400,900' }
     ]
   },
